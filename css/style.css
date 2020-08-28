@@ -11,3 +11,35 @@ body, html {
     justify-content: center;
     align-items: center;
 }
+
+#heart {
+    position: relative;
+
+    width: 150px;
+    height: 150px;
+
+    transform: rotate(45deg);
+
+    background-color: #f99;
+}
+
+#heart::before, #heart::after {
+    content: '';
+
+    position: absolute;
+
+    width: inherit;
+    height: inherit;
+    
+    background-color: #f99;
+
+    border-radius: 50%;
+}
+
+#heart::before {
+    left: -50%;
+}
+
+#heart::after {
+    top: -50%;
+}
