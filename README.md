@@ -49,7 +49,7 @@ body, html {
 
 Rendering:
 
-![square](./img/square.png)
+![square](./img/square.PNG)
 
 - In this step, I define the pseudo-elements, their measurements, background and positioning.
 
@@ -76,7 +76,7 @@ Rendering:
 
 Rendering:
 
-![square](./img/pseudo-elements.png)
+![square](./img/pseudo-elements.PNG)
 
 - Now, I just rotate the element, adding the transform rotate property::
 ```css
@@ -88,7 +88,7 @@ Rendering:
 
 Rendering:
 
-![square](./img/rotate.png)
+![square](./img/rotate.PNG)
 
 - After that, I leave the pseudo-elements circular, adding the property 'border-radius', value '50%':
 ```css
@@ -100,7 +100,7 @@ Rendering:
 
 Rendering:
 
-![square](./img/heart-incompleted.png)
+![square](./img/heart-incompleted.PNG)
 
 - Finally, to make the whole set a uniform color, I simply set ALL BACKGROUNDS to the value '#f99':
 
@@ -110,6 +110,6 @@ background-color: rgba(255,0,0,.4);
 
 Rendering:
 
-![square](./img/heart-completed.png)
+![square](./img/heart-completed.PNG)
 
 Ready! Our heart is done, only with CSS3. If you liked it, leave your star in the repository.
